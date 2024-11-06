@@ -4,21 +4,51 @@ Computer vision project implemented with OpenCV
 
 Here in this project we will use the concepts of Trigonometry and Computer Vision along with the capabilities of python to develop a analog running watch.
 
-<b>Explanation Video Link :</b> <a href="https://youtu.be/tY66e97QeUk"> Analog Clock Using OPENCV-PYTHON </a>
 
-# Algorithm
+Analog Clock Using OpenCV
 
-1. Start the project by including dependencies.
-2. Initialize the constants Radius, Canvas size, Colors.
-3. Start drawing the watch
-4. Develop function to get start and end positions of tick marks on watch.
-5. Draw tick marks.
-6. Develop function for movements and drawing of hands.
-7. Draw hands.
-8. Move hands to time angles.
-9. Show the clock in loop.
+This project demonstrates the creation of a real-time analog clock using Python and OpenCV. The clock features a graphical user interface displaying the current time with dynamically rotating hour, minute, and second hands.
 
-Requirements: python3 , numpy , opencv installed on your system.
+Features
 
-<img src="https://raw.githubusercontent.com/infoaryan/Analog-clock-using-OpenCV/master/Screenshot.png" width="400" height="400">
+Real-time analog clock with rotating hands.
+
+Hour, minute, and second hands update every second.
+
+Uses OpenCV to render the clock face and handle graphical elements.
+
+
+Installation
+
+To run the project, you need Python and OpenCV installed. You can install OpenCV via pip.
+
+How to Use
+
+1. Clone the repository or download the project files.
+
+
+2. Ensure you have Python and OpenCV installed.
+
+
+3. Run the script to display the analog clock in a new window.
+
+
+
+Project Overview
+
+OpenCV for Graphics: The project utilizes OpenCV to draw the clock face, hands, and dynamically update them.
+
+Time Management: The clock synchronizes with the system time, ensuring the hands represent the correct current time.
+
+Mathematical Calculations: Trigonometry is used to determine the position of the hands based on the current time.
+
+
+Requirements
+
+Python 3.x
+
+OpenCV
+
+Numpy (optional, for advanced calculations)
+
 
